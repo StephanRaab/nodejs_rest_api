@@ -1,0 +1,27 @@
+{
+  "name": "nodejs_rest_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StephanRaab/nodejs_rest_api.git"
+  },
+  "author": "Stephan Raab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StephanRaab/nodejs_rest_api/issues"
+  },
+  "homepage": "https://github.com/StephanRaab/nodejs_rest_api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongodb": "^2.2.16"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
